@@ -22,3 +22,29 @@ by matching it with predefined intents stored in a JSON file.
 
 ## Future Improvements
 - Replace rule-based logic with ML/DL-based intent classification.
+
+## Features
+- Preprocesses user text (lowercasing, punctuation removal)
+- Matches user input to intent patterns
+- Selects best intent based on simple keyword scoring
+- Returns random dynamic response from matched intent
+
+
+## Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Appiseq/rule-based-nlp-chatbot.git
+   cd rule-based-nlp-chatbot
+   python chatbot.py
+
+   
+## Contributing
+
+Feel free to open issues or submit pull requests for improvements!
+
+
+
+
+
+
